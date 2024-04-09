@@ -253,7 +253,7 @@ Metrik Precision bekerja dengan cara menghitung persentase rekomendasi relevan y
 
 Formula RMSE:
 
-$$ RMSE = \sqrt {\frac{1}{n} \sum*{i=1}^n (y\*{i}-y*{pred,i})^2}$$
+$$ RMSE = \sqrt {\frac{1}{n} \sum_{i=1}^n (y_{i}-y\_{pred,i})^2}$$
 
 Metrik RMSE bekerja dengan cara merata-ratakan jumlah dari selisih antara nilai sebenarnya dengan nilai prediksi (<i>error</i>) lalu rata-rata tersebut diakarkan sehingga nilai yang dihasilkan metrik tidak memiliki skala yang besar.
 
